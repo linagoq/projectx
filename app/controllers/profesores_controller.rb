@@ -1,17 +1,17 @@
-class ProfesoresController < ApplicationController
+class profesorsController < ApplicationController
 
     before_action :set_profesor, only: [:show, :update, :destroy]
 
       # GET /todos
   def index
-    @profesores =Profesor.all
-    json_response(@profesores)
+    @profesors =Profesor.all
+    json_response(@profesors)
   end
 
   # POST /todos
   def create
-    @profesores = Profesor.create!(estudiante_params)
-    json_response(@profesores, :created)
+    @profesor = Profesor.create!(profesor_params)
+    json_response(@profesor, :created)
   end
 
   # GET /todos/:id
