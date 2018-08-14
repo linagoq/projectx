@@ -1,0 +1,2 @@
+class MateriaxesController < ApplicationController
+end

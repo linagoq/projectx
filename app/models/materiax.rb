@@ -1,0 +1,2 @@
+class Materiax < ApplicationRecord
+end

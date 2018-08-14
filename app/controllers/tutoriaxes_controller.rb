@@ -1,0 +1,2 @@
+class TutoriaxesController < ApplicationController
+end
